@@ -12,4 +12,6 @@ From the experiments, we know that online shopping scales better than online dow
 
 Note: Big O notation represents the worst-case scenario of an algorithm. Let’s assume that O(1) and O(n) are the worst-case scenarios of the example above.
 
+![big-o-notation complexity](https://i.imgur.com/91u8QEn.png)
+
 cc : [http://carlcheo.com/compsci]
