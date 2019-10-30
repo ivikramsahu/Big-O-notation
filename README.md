@@ -2,5 +2,5 @@
 
 Will try to add key concept of computer science with practical example
 
-![https://imgur.com/xgKjTyt](Array-sorting-complexity)
+![algorithm-complexity](https://imgur.com/xgKjTyt)
 
