@@ -14,7 +14,7 @@ Note: Big O notation represents the worst-case scenario of an algorithm. Let’s
 
 ![big-o-notation complexity](https://i.imgur.com/91u8QEn.png)
 
-**Horrible case :**
+**Horrible case 1:**
 
 Calculating Factorial of a particular number is always a o(n!) time
 
