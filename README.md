@@ -14,4 +14,19 @@ Note: Big O notation represents the worst-case scenario of an algorithm. Let’s
 
 ![big-o-notation complexity](https://i.imgur.com/91u8QEn.png)
 
+**Horrible case :**
+
+Calculating Factorial of a particular number is always a o(n!) time
+
+*note : Any algorithm that calculates all permutation of a given array is O(N!).
+
+```java
+void nFacRuntimeFunc(int n) {
+  for(int i=0; i<n; i++) {
+    nFacRuntimeFunc(n-1);
+  }
+}
+```
+
+
 cc : [http://carlcheo.com/compsci]
