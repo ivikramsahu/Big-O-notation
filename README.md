@@ -16,9 +16,7 @@ Note: Big O notation represents the worst-case scenario of an algorithm. Let’s
 
 **Horrible case 1:**
 
-Calculating Factorial of a particular number is always a o(n!) time
-
-*note : Any algorithm that calculates all permutation of a given array is O(N!).
+Any algorithm that calculates all permutation of a given array is O(N!).
 
 ```java
 void nFacRuntimeFunc(int n) {
@@ -28,5 +26,26 @@ void nFacRuntimeFunc(int n) {
 }
 ```
 
+**Horrible case 2:**
+
+This program prints out all the moves necessary to solve the famous "Towers of Hanoi" problem for N disks.
+
+[explaination](https://stackoverflow.com/questions/34915869/example-of-big-o-of-2n)
+
+```java
+void solve_hanoi(int N, string from_peg, string to_peg, string spare_peg)
+{
+    if (N<1) {
+        return;
+    }
+    if (N>1) {
+        solve_hanoi(N-1, from_peg, spare_peg, to_peg);
+    }
+    print "move from " + from_peg + " to " + to_peg;
+    if (N>1) {
+        solve_hanoi(N-1, spare_peg, to_peg, from_peg);
+    }
+}
+```
 
 cc : [http://carlcheo.com/compsci]
